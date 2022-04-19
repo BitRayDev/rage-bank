@@ -1,0 +1,69 @@
+.property-card {
+  flex-shrink: 0;
+
+  position: relative;
+
+  width: 15vw;
+  height: 10vw;
+
+  border-radius: .5vw;
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  transition: box-shadow 100ms ease-out;
+
+  &:hover {
+    box-shadow: 0 0 .25vw rgba(255, 255, 255, 0.1);
+  }
+
+  &__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    transition: filter 100ms ease-out;
+    &_inactive {
+      filter: grayscale(100);
+    }
+  }
+
+  &__info-container {
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: .25vw .4vw;
+
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(.25vw);
+  }
+}
+
+.property-card-info {
+  &__name {
+    color: white;
+
+    font-size: .7vw;
+    font-weight: 600;
+  }
+
+  &__value {
+    color: white;
+
+    font-size: .8vw;
+    font-weight: 300;
+  }
+}

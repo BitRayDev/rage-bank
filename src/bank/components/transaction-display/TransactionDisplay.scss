@@ -1,0 +1,61 @@
+.transaction-display {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1vw;
+
+  margin-top: 6vw;
+
+  &__fields {
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+
+    margin-bottom: 2vw;
+  }
+
+  &__field-label {
+    margin-bottom: .1vw;
+
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1vw;
+  }
+
+  &__info {
+    width: 100%;
+  }
+
+  &__info-title {
+    color: white;
+
+    font-size: 1vw;
+    font-weight: 600;
+
+    margin-bottom: .5vw;
+  }
+
+  &__info-properties {
+    display: flex;
+    flex-direction: column;
+    gap: .25vw;
+  }
+}
+
+.transaction-info-property {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vw;
+
+  &__name {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .9vw;
+    font-weight: 400;
+  }
+
+  &__value-container {
+    color: white;
+    font-size: .9vw;
+  }
+}

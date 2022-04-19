@@ -1,0 +1,21 @@
+.balance {
+  &__title {
+    color: #A2A2A2;
+
+    font-size: .85vw;
+  }
+  &__value {
+    display: flex;
+    gap: .5vw;
+    align-items: center;
+
+    color: white;
+
+    font-size: 1.1vw;
+
+    margin-bottom: .25vw;
+  }
+  &__icon {
+    height: 1vw;
+  }
+}

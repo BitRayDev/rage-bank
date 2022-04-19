@@ -1,0 +1,31 @@
+.input-field {
+  display: flex;
+  align-items: center;
+  gap: .5vw;
+
+  width: 100%;
+
+  box-sizing: border-box;
+  padding: .5vw .8vw;
+
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+
+  &__input {
+    flex-grow: 1;
+
+    color: white;
+
+    font-size: 1vw;
+
+    background: none;
+    border: none;
+    outline: none;
+  }
+
+  &__icon {
+    flex-shrink: 0;
+
+    height: 1.5vw;
+  }
+}

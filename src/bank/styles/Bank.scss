@@ -1,0 +1,83 @@
+@import "../assets/fonts/Gilroy/stylesheet.css";
+
+.bank {
+  * {
+    font-family: 'Gilroy';
+  }
+
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 10% 90%;
+
+  height: 100vh;
+
+  box-sizing: border-box;
+  padding: 3vw 3.5vw;
+
+  background: url("../assets/img/bg.png");
+  background-size: cover;
+
+  *::-webkit-scrollbar {
+    height: .35vw;
+    width: .35vw;
+  }
+  *::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 100vw;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #259138;
+    border-radius: 100vw;
+  }
+
+  &__logo {
+    grid-column: 1;
+    grid-row: 1;
+    height: 3.25vw;
+  }
+  &__atm-logo {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    height: 3.25vw;
+  }
+
+  &__screen-title {
+    grid-column: 2;
+    grid-row: 1;
+    color: white;
+
+    font-size: 2vw;
+    text-align: center;
+  }
+
+  &__cash-info {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+  }
+
+
+  &__sidebar {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__sidebar-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+  &__content {
+    height: 100%;
+
+    grid-column: 2;
+    grid-row: 2;
+
+    & > div {
+      height: 100%;
+    }
+  }
+}

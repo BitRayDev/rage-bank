@@ -1,0 +1,148 @@
+.fees-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__filter-label {
+    margin-bottom: .25vw;
+
+    color: white;
+
+    font-size: .9vw;
+  }
+  &__filter-label-icon {
+    margin-right: .25vw;
+
+    height: .75vw;
+  }
+
+  &__catalog {
+    display: flex;
+    flex-direction: column;
+    gap: .25vw;
+
+    height: 100%;
+  }
+
+  &__filter-switch {
+    margin-bottom: .25vw;
+  }
+
+  &__property-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35vw;
+
+    width: fit-content;
+
+    overflow: auto;
+  }
+}
+
+.filter-switch {
+  display: flex;
+  gap: .25vw;
+
+  &__option {
+    padding: .25vw .5vw;
+
+    color: white;
+
+    font-size: .8vw;
+
+    background: rgba(84, 84, 84, 0.15);
+    border: .1vw solid rgba(255, 255, 255, 0.07);
+    border-radius: .25vw;
+
+    cursor: pointer;
+
+    transition: box-shadow 100ms ease-out;
+
+    &:hover {
+      box-shadow: 0 0 .25vw rgba(255, 255, 255, .1);
+    }
+
+    &_active {
+      background: linear-gradient(97.94deg, #259138 -3.2%, #259138 97.92%);
+      border: .1vw solid rgba(255, 255, 255, 0.18);
+    }
+  }
+}
+
+.fees-subject {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  gap: .25vw;
+
+  width: 40vw;
+
+  overflow: auto;
+
+  &__image {
+    width: 100%;
+    height: 20vw;
+
+    object-fit: cover;
+
+    margin: 1vw 0;
+
+    border-radius: 1vw;
+  }
+
+  &__properties {
+    display: flex;
+    flex-direction: column;
+    gap: .25vw;
+
+    margin-bottom: 1vw;
+  }
+  &__properties-title {
+    color: rgba(255, 255, 255, 0.46);
+    font-size: 1vw;
+    font-weight: 600;
+  }
+
+  &__final-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__total-label {
+    display: flex;
+    align-items: center;
+    gap: .5vw;
+
+    color: white;
+
+    font-size: 1vw;
+  }
+  &__total-icon {
+    height: .75vw;
+  }
+  &__total-value {
+    color: #259138;
+
+    font-size: .9vw;
+    font-weight: 600;
+    text-align: right;
+  }
+}
+
+.fees-subject-property {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__name {
+    color: rgba(255, 255, 255, 0.46);
+
+    font-size: .75vw;
+  }
+  &__value {
+    color: white;
+
+    font-size: .75vw;
+  }
+}

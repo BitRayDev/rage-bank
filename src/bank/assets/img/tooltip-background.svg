@@ -1,0 +1,17 @@
+<svg preserveAspectRatio="none" viewBox="0 0 247 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_1_736)">
+<mask id="path-1-inside-1_1_736" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.113 0C12.3516 0 10.113 2.23858 10.113 5V33.8776L0 38.5L10.113 43.1224V71C10.113 73.7614 12.3516 76 15.113 76H242C244.761 76 247 73.7614 247 71V5C247 2.23858 244.761 0 242 0H15.113Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.113 0C12.3516 0 10.113 2.23858 10.113 5V33.8776L0 38.5L10.113 43.1224V71C10.113 73.7614 12.3516 76 15.113 76H242C244.761 76 247 73.7614 247 71V5C247 2.23858 244.761 0 242 0H15.113Z" fill="white" fill-opacity="0.24"/>
+<path d="M10.113 33.8776L10.5287 34.7871L11.113 34.5201V33.8776H10.113ZM0 38.5L-0.415704 37.5905L-2.40556 38.5L-0.415704 39.4095L0 38.5ZM10.113 43.1224H11.113V42.4799L10.5287 42.2129L10.113 43.1224ZM11.113 5C11.113 2.79086 12.9039 1 15.113 1V-1C11.7993 -1 9.11304 1.68629 9.11304 5H11.113ZM11.113 33.8776V5H9.11304V33.8776H11.113ZM0.415704 39.4095L10.5287 34.7871L9.69734 32.9681L-0.415704 37.5905L0.415704 39.4095ZM10.5287 42.2129L0.415704 37.5905L-0.415704 39.4095L9.69734 44.0319L10.5287 42.2129ZM11.113 71V43.1224H9.11304V71H11.113ZM15.113 75C12.9039 75 11.113 73.2091 11.113 71H9.11304C9.11304 74.3137 11.7993 77 15.113 77V75ZM242 75H15.113V77H242V75ZM246 71C246 73.2091 244.209 75 242 75V77C245.314 77 248 74.3137 248 71H246ZM246 5V71H248V5H246ZM242 1C244.209 1 246 2.79086 246 5H248C248 1.68629 245.314 -1 242 -1V1ZM15.113 1H242V-1H15.113V1Z" fill="white" fill-opacity="0.1" mask="url(#path-1-inside-1_1_736)"/>
+</g>
+<defs>
+<filter id="filter0_b_1_736" x="-8" y="-8" width="263" height="92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="4"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_736"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_736" result="shape"/>
+</filter>
+</defs>
+</svg>

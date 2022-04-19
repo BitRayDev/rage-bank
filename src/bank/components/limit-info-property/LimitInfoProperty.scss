@@ -1,0 +1,13 @@
+.limit-info-property {
+  display: flex;
+  align-items: center;
+  gap: .25vw;
+
+  color: white;
+
+  font-size: .9vw;
+
+  &__icon {
+    height: 1vw;
+  }
+}

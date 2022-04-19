@@ -1,0 +1,42 @@
+.ticket-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1vw 1.25vw;
+
+  background: rgba(84, 84, 84, 0.15);
+  border: .1vw solid rgba(255, 255, 255, 0.07);
+  border-radius: .5vw;
+
+  &__text-container {
+
+  }
+  &__title {
+    margin-bottom: .25vw;
+
+    color: white;
+
+    font-size: 1vw;
+    font-weight: 600;
+  }
+  &__text {
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: .8vw;
+  }
+  &__pay-container {
+    display: flex;
+    align-items: center;
+    gap: .75vw;
+
+    padding-left: .75vw;
+
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: .3vw;
+  }
+  &__value {
+    color: white;
+    font-size: .75vw;
+  }
+}

@@ -1,0 +1,33 @@
+.value-preset-keyboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .5vw;
+
+  &__preset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5vw;
+
+    padding: 2vw;
+
+    color: white;
+
+    font-size: 1vw;
+    font-weight: 600;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: .25vw;
+
+    cursor: pointer;
+
+    transition: box-shadow 100ms ease-out;
+    &:hover {
+      box-shadow: 0 0 .5vw rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  &__icon {
+    height: 1.5vw;
+  }
+}
